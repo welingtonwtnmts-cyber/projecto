@@ -13,8 +13,6 @@ public class Main {
         float valor = 2000 ;
 
 
-        System.out.println("Dados Pessoais: " );
-        System.out.println("Nome: " + nome + ", CPF: " + cpf + ", Endereço" + endereco + ", Número da residencia" + nr + "Conta" + valor );
 
         String nom = scanner.nextLine();
         System.out.println( "Olá, " + nom + "!");
