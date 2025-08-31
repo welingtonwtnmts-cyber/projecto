@@ -105,7 +105,7 @@ public class Main {
         p.add(entrega);
         p.add(enderecoLabel);
         p.add(endereco);
-        p.add(endereco);
+
 
         p.add(pagLabel);
         p.add(credito);
