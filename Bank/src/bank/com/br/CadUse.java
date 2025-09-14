@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class CadUse {
-    static void Main(String[] args) {
+    public static void main(String[] args) {
 
         ContBank conta = new ContBank();
 
@@ -44,7 +44,7 @@ public class CadUse {
         String user = "root";
         String password = "root";
 
-        String sql = "INSERT INTO CADADOSBNK (NM, CADNM, CADPFC, CADEMAIL, CADIDAD, CADAGC, CNTBNK, SLD) VALUES (?, ?, ?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO CADADOSBNK (CADNM, CADPFC, CADEMAIL, CADIDAD, CADAGC, CNTBNK, SLD) VALUES (?, ?, ?, ?, ?, ?, ?)";
 
         try (Connection conn = DriverManager.getConnection(url, user, password);
              PreparedStatement stmt = conn.prepareStatement(sql)) {
