@@ -1,4 +1,4 @@
-package ContBank.CadUse;
+package bank.com.br;
 
 
 public class ContBank {
@@ -33,4 +33,3 @@ public class ContBank {
         this.vlcont = vlcont;
     }
 }
-
